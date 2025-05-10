@@ -1,0 +1,184 @@
+
+* {
+    box-sizing: border-box;
+ }
+ .logo-header.header-icon {
+   position: absolute;
+   margin-left: 50px;
+   margin-top: 250px;
+ }
+ 
+ 
+ header h1 {
+    color: white;
+    position: absolute;
+    font-size: 70px;
+    margin-left: 48px;
+    margin-top: 80px;
+ }
+ 
+ header {
+   background-color: #45BBBD;
+   height: 373px;
+   position: relative;
+   top: 0;
+ }
+ 
+ 
+ #link-topo{
+     text-decoration: none;
+     color: white;
+     background-color: rgb(213, 158, 8);
+     padding: 20px;
+     position: fixed;
+     right: 10px;
+     bottom: 10px;
+     box-shadow: 3px 3px 10px #333;
+ }
+ 
+ body {
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+     background: #d5f6e9;
+     margin: 0;
+     height: 200px;
+     width: auto;
+  }
+ 
+ 
+ 
+  nav ul {
+     list-style: none;
+     background-color: #45BBBD;
+     overflow: hidden;
+     margin: 0;
+     padding: 0;
+     box-shadow: 3px 3px 2px #20283f76;
+  }
+ 
+  nav a {
+     color: white;
+     text-decoration: none;
+     padding: 23px;
+     display: block;
+     font-weight: bolder;
+  }
+ 
+ 
+  nav li {
+     float: left;
+  }
+ 
+  nav a:hover {
+     background-color: white;
+     color: #45BBBD;
+  }
+ 
+  .row {
+    padding: 0 20px;
+    display: table;
+    margin: auto;
+  }
+ 
+  .card {
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 8px;
+  }
+ 
+  .principal {
+   float: left;
+   width: 75%;
+ }
+ 
+ section {
+   float: left;
+   width: 1276px;
+   
+ }
+ 
+ aside {
+   float: left;
+   width: 25%;
+   padding-left: 20px;
+ }
+ 
+ 
+ footer {
+   padding: 25px;
+   background: #1999B2;
+   color: white;
+   margin-top: 20px;
+   display: table;
+   width: 100%;
+ }
+ 
+  footer dt {
+    font-weight: bolder;
+  }
+ 
+  footer dd {
+    margin-left: 0;
+  }
+ 
+  footer img {
+    float: right;
+    margin-right: 60px;
+  }
+ 
+  footer img, footer dl {
+    display: table-cell;
+    vertical-align: middle;
+  }
+ 
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+ /*tablet*/
+  @media screen and (max-width: 768px) {
+    section, aside {
+       width: 100%;
+       padding: 0;
+    }
+  }
+ /*celular*/
+  @media screen and (max-width: 600px) {
+       nav li {
+          float: 0;
+          text-align: none;
+          width: 100%;
+       }
+ 
+    footer img {
+       display: none;
+    }
+  }
+ 
+  .container img {
+   width: 304px;
+   height: 391px;
+  }
+ 
+  .container img, p, h1 {
+   display: inline-block;
+ 
+  }
+ 
+  .container #nickcapa, #textonick, h1 {
+   float: left;
+ 
+  }
+ 
+  .container-curiosidades h3 {
+   color: #333;
+   text-align: center;
+  }
+ 
+  .container-curiosidades img {
+   width: 60%;  
+   margin: auto;
+   display: block;
+ 
+  }
+ 
